@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>cubing supporter</title>     
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-arrow-right" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="beginner.html">beginner</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>                   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>How to solve a rubik's cube</h1>
+    <p>solving a rubik's cube can be difficulte if their is no source<br> but you got us!!</p>
+    <a href="" class="hero-btn">Let's get started!</a>
+</div>
+        
+        
+</section>
+    
+    
+<!-----course------>
+<section class="course">
+    <h1> Rubiks cube 3x3</h1>
+    <p>How to solve a Rubik's Cube</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Complete Beginner</h3>
+            <p>A complete guide to solving the rubik's cube if you have no experience and know nothing about rubik's cubes</p>
+        </div>
+    <div class="course-col2">
+            <h3>intermediate</h3>
+            <p>a guide after you are able to solve an rubik's cube using the beginner's method, and want to improve on your time on solving the rubik's cube</p>
+        </div>
+    <div class="course-col3">
+            <h3>advance</h3>
+            <p>A guide for advance cubers to learn different techinques to improve on their time</p>
+        </div></div>
+</section>
+    
+    
+    
+<!----courselevel--->
+    
+<section class="campus">
+    <h1> course level</h1>
+    <p>How to solve a Rubik's Cube</p>
+    
+    <div class="row">
+        <div class="campus-col">
+            
+            <!--<a href="beginner.html" target="_blank"><img class="myimage"-->
+            ><!--</a>-->
+            <div class="colorlayer">
+                <!--<a href="beginner.html" target="_blank"></a>-->
+                <a href="beginner.html" target="_blank"><img src="images/firstlevelpic.png"></a>
+                    <h3>Beginner</h3>
+                    
+                
+        </div>
+        </div>
+       <div class="campus-col">
+            <img src="images/secondlevel.png">
+            <div class="colorlayer">
+                <h3>intermediate</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/thirdlevel.png">
+            <div class="colorlayer">
+                <h3>advance</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+    
+<!----timer---->
+
+<section class= "timer">
+    <h1> Rubik's cube timer</h1>
+    
+    <div class="row">
+        <div class="timer-col">
+            <a href="beginner.html"><img src="images/timerpic2.png"></a>
+            <h3>Timer</h3>
+        </div>
+        <div class="timer-col">
+            <img src="images/shoppic.png">
+            <h3>Shop</h3>
+        </div>
+        <div class="timer-col">
+            <img src="images/algpic.png">
+            <h3>Algorithms</h3>
+        </div>
+    </div>
+
+</section>
+
+
+    
+    
+    
+    
+    
+<!-------JavaScript for toggle menu------>
+<script>
+    var navlinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
+
+
+
